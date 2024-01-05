@@ -33,9 +33,9 @@ func Hellos(names []string) (map[string]string, error) {
 // se selecciona de forma aleatoria
 func randomFormat() string {
 	formats := []string{
-		"Hola, %v Bienvenido!",
-		"Que bueno verte, %v!",
-		"Saludo, %v encantado de conocerte!",
+		"¡Hola %v, Bienvenido!",
+		"¡Que bueno verte, %v!",
+		"¡Saludos %v, encantado de conocerte!",
 	}
 
 	return formats[rand.Intn(len(formats))]
