@@ -15,11 +15,12 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/Srianv/greetings"
 )
 
 func main() {
-	message, err := greetings.Hello("Juan")
+	messages, err := greetings.Hello("Juan")
 
 	if err != nil {
 		fmt.Println("Ocurrio un error:", err)
