@@ -10,7 +10,9 @@ go get -u github.com/Srianv/greetings
 ## Uso
 Aqui tienes un ejemplo de cómo utilizar el paquete en tu código:
 
-```go 
+```go
+package main
+
 import (
 	"fmt"
 	"github.com/Srianv/greetings"
